@@ -19,6 +19,10 @@ const App = () => (
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/landing" element={<LandingPage />} />
+          <Route path="/html-landing" element={() => {
+            window.location.href = "/landing.html";
+            return null;
+          }} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
