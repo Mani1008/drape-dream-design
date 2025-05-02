@@ -11,6 +11,7 @@ import OffersSection from '../components/OffersSection';
 import NewsletterSection from '../components/NewsletterSection';
 import ContactSection from '../components/ContactSection';
 import Footer from '../components/Footer';
+import WhatsAppButton from '../components/WhatsAppButton';
 
 const Index = () => {
   return (
@@ -28,6 +29,7 @@ const Index = () => {
         <ContactSection />
       </main>
       <Footer />
+      <WhatsAppButton />
     </div>
   );
 };
