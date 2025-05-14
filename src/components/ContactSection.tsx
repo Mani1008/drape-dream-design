@@ -28,8 +28,8 @@ const ContactSection = () => {
                     <MapPin className="text-saree-maroon mr-3 mt-1 flex-shrink-0" size={20} />
                     <div>
                       <p className="font-medium">Store Location:</p>
-                      <p className="text-gray-600">123 Fashion Street, Silk Market</p>
-                      <p className="text-gray-600">Mumbai, Maharashtra 400001</p>
+                      <p className="text-gray-600">weavelle, 120, Shahpur Jat</p>
+                      <p className="text-gray-600">New Delhi, Delhi 110049</p>
                     </div>
                   </div>
                   
@@ -37,17 +37,17 @@ const ContactSection = () => {
                     <Phone className="text-saree-maroon mr-3 mt-1 flex-shrink-0" size={20} />
                     <div>
                       <p className="font-medium">Call Us:</p>
-                      <p className="text-gray-600">+91 98765 43210</p>
-                      <p className="text-gray-600">+91 12345 67890</p>
+                      <p className="text-gray-600">+91 80761 83966</p>
+                      {/* <p className="text-gray-600">+91 12345 67890</p> */}
                     </div>
                   </div>
                   
                   <div className="flex items-start">
                     <Mail className="text-saree-maroon mr-3 mt-1 flex-shrink-0" size={20} />
                     <div>
-                      <p className="font-medium">Email Us:</p>
+                      {/* <p className="font-medium">Email Us:</p>
                       <p className="text-gray-600">info@drapedream.com</p>
-                      <p className="text-gray-600">support@drapedream.com</p>
+                      <p className="text-gray-600">support@drapedream.com</p> */}
                     </div>
                   </div>
                 </div>
@@ -55,22 +55,20 @@ const ContactSection = () => {
                 <div className="mt-8">
                   <h4 className="font-medium mb-3">Store Hours</h4>
                   <div className="grid grid-cols-2 gap-2 text-gray-600">
-                    <div>Monday - Friday</div>
-                    <div>10:00 AM - 8:00 PM</div>
+                    <div>Monday - Saturday</div>
+                    <div>10:00 AM - 7:00 PM</div>
                     <div>Saturday</div>
-                    <div>10:00 AM - 9:00 PM</div>
-                    <div>Sunday</div>
-                    <div>11:00 AM - 6:00 PM</div>
+                    <div>10:00 AM - 6:00 PM</div>
                   </div>
                 </div>
                 
                 <div className="mt-8">
                   <h4 className="font-medium mb-3">Follow Us</h4>
                   <div className="flex space-x-4">
-                    <a href="#" className="bg-saree-maroon/10 p-3 rounded-full hover:bg-saree-maroon/20 transition-colors">
+                    <a href="http://instagram.com/weavelle_/?hl=en" className="bg-saree-maroon/10 p-3 rounded-full hover:bg-saree-maroon/20 transition-colors">
                       <Instagram size={20} className="text-saree-maroon" />
                     </a>
-                    <a href="#" className="bg-saree-maroon/10 p-3 rounded-full hover:bg-saree-maroon/20 transition-colors">
+                    <a href="https://www.facebook.com/WEAVELLE" className="bg-saree-maroon/10 p-3 rounded-full hover:bg-saree-maroon/20 transition-colors">
                       <Facebook size={20} className="text-saree-maroon" />
                     </a>
                   </div>
