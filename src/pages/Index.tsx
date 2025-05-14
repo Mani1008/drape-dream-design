@@ -1,26 +1,26 @@
 
 import React from 'react';
-import Navbar from '../components/Navbar';
+// import Navbar from '../components/Navbar';
 import HeroSection from '../components/HeroSection';
 import CategoriesSection from '../components/CategoriesSection';
-import NewArrivalsSection from '../components/NewArrivalsSection';
+// import NewArrivalsSection from '../components/NewArrivalsSection';
 import FeatureSection from '../components/FeatureSection';
 import TestimonialsSection from '../components/TestimonialsSection';
 import GuideSection from '../components/GuideSection';
 import OffersSection from '../components/OffersSection';
 import NewsletterSection from '../components/NewsletterSection';
 import ContactSection from '../components/ContactSection';
-import Footer from '../components/Footer';
+// import Footer from '../components/Footer';
 import WhatsAppButton from '../components/WhatsAppButton';
 
 const Index = () => {
   return (
     <div className="min-h-screen flex flex-col">
-      <Navbar />
+      {/* <Navbar /> */}
       <main className="flex-grow">
         <HeroSection />
         <CategoriesSection />
-        <NewArrivalsSection />
+        {/* <NewArrivalsSection /> */}
         <FeatureSection />
         <TestimonialsSection />
         <GuideSection />
@@ -28,7 +28,7 @@ const Index = () => {
         <NewsletterSection />
         <ContactSection />
       </main>
-      <Footer />
+      {/* <Footer /> */}
       <WhatsAppButton />
     </div>
   );
