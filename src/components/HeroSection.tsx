@@ -8,12 +8,12 @@ const HeroSection = () => {
       <div className="absolute inset-0">
         <div className="relative w-full h-full">
           <img 
-            src="https://images.unsplash.com/photo-1610030181087-540017dc7b5c?w=1200&auto=format&fit=crop&q=80" 
+            src="https://media-hosting.imagekit.io/da219975a0d44361/saree.jpg?Expires=1841846762&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=ze14DCKIz768hlqf7pesgywZYe0izBnwx-663qi9WXb6tNjoSLa9mxvrDBhl7WrlsBX4SIKl3OOpaDmUceo9HNvxlzxfM5XWpHQIP1ENdYDcM5bcfNXNT7CmAc9Dt~v2tSf~OEYz~AASMA8MhoS4fOEPSn4BAeIy6~Su33FpYmuYl4d85VpDKiHSQsvnapv4dTLSwA~OyLWgIdxfC90bOdZ1JltAcqLYPwvkOr2VgmxAZZV~lRcdFmVSdiQPdODcEiItMMzy6gz-H8~tEtabHpKCJadPnahSe0-~7kV6fwUrXHopoDAuZS9knMRumioqqwFIrxeSfrvGvxUoytT5JA__" 
             alt="Elegant silk saree" 
             className="hero-slide"
           />
           <img 
-            src="https://images.unsplash.com/photo-1610704244729-6984cf8fd218?w=1200&auto=format&fit=crop&q=80" 
+            src="https://media-hosting.imagekit.io/3093680a05934f8d/saree%202.jpg?Expires=1841846762&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=GdaoZ74hy8k3r03pwZbKjCU2v6cnrgnH9-bZpZgNskNBM~UMLemnp5y0uhMPoJ1dILNoaHS1lw1tyJGyDT9Ru3tsSWfiofOS-Lt-NWPIectqTayZW6Fau19C6vPuoqaH2F10ys7Qf-5LRwBEzwrFV60KLh6Lerur9cpDswt18eYdFmt2inuv0N36D-NoVHdEAmIq-abxdfjxtEA1B9YJ3nV66ubQ2wfLcqmmm5eb5w3oMrbGDNxUjXeOc4CnHW7ccln-Mzamj57Xd2JgajzrGOLU5u9LgGZa5COV0JHnaV82iQG58X74GkPH69ApQMibEDOPz7bgxvloTx6PG0WeiQ__" 
             alt="Traditional bridal saree" 
             className="hero-slide"
           />
