@@ -55,7 +55,7 @@ const ContactSection = () => {
                 <div className="mt-8">
                   <h4 className="font-medium mb-3">Store Hours</h4>
                   <div className="grid grid-cols-2 gap-2 text-gray-600">
-                    <div>Monday - Saturday</div>
+                    <div>Monday - Friday</div>
                     <div>10:00 AM - 7:00 PM</div>
                     <div>Saturday</div>
                     <div>10:00 AM - 6:00 PM</div>
