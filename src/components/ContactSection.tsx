@@ -14,7 +14,7 @@ const ContactSection = () => {
             <div className="bg-white rounded-lg shadow-md overflow-hidden">
               <div className="aspect-video overflow-hidden">
                 <img 
-                  src="https://images.unsplash.com/photo-1605941907104-60843ce92a37?w=600&auto=format&fit=crop&q=80" 
+                  src="https://media-hosting.imagekit.io/3093680a05934f8d/saree%202.jpg?Expires=1841846762&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=GdaoZ74hy8k3r03pwZbKjCU2v6cnrgnH9-bZpZgNskNBM~UMLemnp5y0uhMPoJ1dILNoaHS1lw1tyJGyDT9Ru3tsSWfiofOS-Lt-NWPIectqTayZW6Fau19C6vPuoqaH2F10ys7Qf-5LRwBEzwrFV60KLh6Lerur9cpDswt18eYdFmt2inuv0N36D-NoVHdEAmIq-abxdfjxtEA1B9YJ3nV66ubQ2wfLcqmmm5eb5w3oMrbGDNxUjXeOc4CnHW7ccln-Mzamj57Xd2JgajzrGOLU5u9LgGZa5COV0JHnaV82iQG58X74GkPH69ApQMibEDOPz7bgxvloTx6PG0WeiQ__" 
                   alt="Store Interior" 
                   className="w-full h-full object-cover"
                 />
