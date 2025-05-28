@@ -8,9 +8,10 @@ const stagewiseConfig = {
 
 export function mountStagewiseToolbar() {
   if (process.env.NODE_ENV === 'development') {
-    // Only try to load the toolbar if the package is available
+    // Use dynamic import with string concatenation to avoid static analysis
+    const packageName = '@stagewise/toolbar-react';
     try {
-      import('@stagewise/toolbar-react').then((module) => {
+      import(/* @vite-ignore */ packageName).then((module) => {
         const { StagewiseToolbar } = module;
         let toolbarRoot = document.getElementById('stagewise-toolbar-root');
         if (!toolbarRoot) {
